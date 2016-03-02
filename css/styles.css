@@ -1,0 +1,116 @@
+body{
+    height: 2000px;
+}
+.header{
+    background: url(../images/background.jpg) top center fixed;
+    height: 600px;
+    background-size: auto 1122px;
+    position: relative;
+    overflow: hidden;
+}
+.passPhoto{
+    background: url(../images/Me.png) center no-repeat;
+    height: 329px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -165px;
+}
+.passPhoto h1{
+    text-align: center;
+    color: white;
+    margin-top: -40px;
+    font-weight: 700;
+}
+.foreGround{
+    background: url(../images/laptop.png) no-repeat bottom right;
+    width: 960px;
+    height: 515px;
+    position: absolute;
+    left: 50%;
+    margin-left: -320px;
+    top: 300px;
+}
+.backGround{
+    width: 900px;
+    height: 360px;
+    background: url(../images/HTML5.png) top left no-repeat;
+    left: 50%;
+    margin-left: -500px;
+    position: absolute;
+}
+.btnDownWrapper{
+    width: 100%;
+    height: 320px;
+    margin-top: -160px;
+    position: absolute;
+    top: 112%;
+    text-align: center;
+}
+.btnDown{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: .750rem 1rem;
+    border: solid 3px #c12e2a;
+    transition: 0.150s;
+    white-space: nowrap;
+}
+.btnDown:hover{
+    background-color: #c12e2a;
+    color: white;
+    text-decoration: none;
+    transition: 0.150s;
+}
+.btnDown:focus{
+    text-decoration: none;
+    color: white;
+}
+.btnDown:active{
+    background-color: #982420;
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+    border-color: #982420;
+}
+.btnDown:visited{
+    text-decoration: none;
+    color: white;
+}
+#wrapper{
+    height: 100%;
+    width: 100%;
+}
+.fabWrapper{
+    bottom: 5%;
+    right: 3%;
+    position: fixed;
+}
+.fab{
+    background-color: #c12e2a;
+    height: 128px;
+    width: 128px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 100%;
+    transform: scale(0);
+    transition: 0.2s;
+}
+.fabScale{
+    transform: scale(1);
+    transition: 0.2s;
+}
+.fab i{
+    margin-top: 30px;
+}
+hr{
+    background-color: #333;
+    height: 1px;
+    border:none;
+}
+#uniqueStyle{
+    font-size: 3rem;
+}
